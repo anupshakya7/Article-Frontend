@@ -7,7 +7,7 @@ const useFetchArticles=(slug=null)=>{
 
     useEffect(()=>{
         const fetchArticles = async()=>{
-            let url = 'http://localhost/wordpress-react/server/wp-json/wp/v2/articles';
+            let url = 'http://localhost/Articles/Article-Backend/wp-json/wp/v2/articles';
 
             // if there is slug fetch according to its slug
             if(slug){

@@ -10,12 +10,15 @@ const Articles =() =>{
 
     return(
         <>
-            <h1>Articles</h1>
-            <div>
+            <div className="container">
+            <h1 className="text-center">Articles</h1>
+            <div className="row">
                 {articles.map((article)=>(
                     <ArticleItem key={article.id} article={article} showExcerpt={true} />
                 ))}
             </div>
+            </div>
+           
         </>
     )
 }
