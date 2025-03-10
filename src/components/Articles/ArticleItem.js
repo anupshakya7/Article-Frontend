@@ -29,7 +29,7 @@ const ArticleItem = ({article,showExcerpt=true,wordLimit=30}) => {
 
     console.log(article);
     return (
-        <div className='article-item col-md-4'>
+        <div className='article-item col-lg-4'>
             <div className="card p-3 my-3 shadow">
             {article.imageUrl && <img src={article.imageUrl} alt={article.title.rendered} />}
             <h2 className='article_heading'>{article.title.rendered}</h2>

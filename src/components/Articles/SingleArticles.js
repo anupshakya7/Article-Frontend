@@ -29,7 +29,7 @@ const SingleArticles = () => {
     <>
       <button className="btn button backBtn" onClick={()=>navigate(-1)}>&larr;Back</button>
       <div className="row">
-        <div className="col-sm-9">
+        <div className="col-lg-9">
           <div className="card p-4 shadow">
             <img
               className="individual_image"
@@ -47,7 +47,7 @@ const SingleArticles = () => {
             ></div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-lg-3">
           <div className="card p-3 shadow relatedArticlesBox">
             <h2 className="article_heading">Related Articles</h2>
             <SideItem relatedArticles={relatedArticles || []}/>
