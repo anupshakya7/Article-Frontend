@@ -1,12 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Finlandica:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.col{
+    border: 1px solid black;
+}
 
 body{
-    font-family: 'PT Sans',sans-serif;
+    font-family: "Roboto", sans-serif !important;
     line-height: 1.5;
     background: #f0f4fb;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
 }
+
+.loading{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: "Emblema One", system-ui !important;
+}
+
+.subheading{
+   font-size: larger;
+}
+
+.card{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 98% !important;
+}
+
+.article_heading{
+    font-size: 1.6rem;
+    font-family: "Finlandica", sans-serif;
+    line-height: 40px;
+}
+
+.article_published{
+    font-size: 1.1rem;
+}
+
+.article_published span{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.article_paragraph{
+   
+}
+
+.button{
+    border: 2px solid rgb(57, 125, 125) !important;
+    transition: 0.1s ease-in-out !important;
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(57, 125, 125) !important;
+}
+
+.article_button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.individual_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.relatedArticlesBox{
+    height: auto !important;
+    margin-bottom: 20px;
+}
+
+.side_items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid rgb(178, 173, 173);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.side_items:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.side_img{
+    flex: 1;
+    padding: 5px;    
+}
+
+.side_img img{
+    width: 100%;    
+}
+
+.side_content{
+    flex: 2;
+    padding: 5px;
+}
+.side_link{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.backBtn{
+    position: relative;
+    float: right;
+}
+
+
+
+
+
 
 
 
